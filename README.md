@@ -39,6 +39,7 @@ FIM
 O algoritmo já foi implementado nas seguintes linguagens:
 
 * C
+* C#
 * Java
 * JavaScript
 * Julia
