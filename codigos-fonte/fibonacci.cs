@@ -1,3 +1,6 @@
+//Fibonacci para C#
+//Feito por @joao-MountDev
+
 using System;
 
 public class Fibbonacci
