@@ -4,16 +4,16 @@
 
 struct elementos {	
 	//Certamente há maneiras mais elegantes de representar um inteiro de 64 bits.
-	long long int a;
-	long long int b;
-	long long int ac;
+	long int a;
+	long int b;
+	long int ac;
 };
 
 int fibonacci(int termos){
 	struct elementos valores = {0, 1, 0};
 
 	for (int idx = 0; idx < termos; idx++){
-		printf("%lli\n", valores.a);
+		printf("%li\n", valores.a);
 		valores.ac = valores.a + valores.b;
 		valores.a = valores.b;
 		valores.b = valores.ac;
