@@ -43,5 +43,6 @@ O algoritmo já foi implementado nas seguintes linguagens:
 * Java
 * JavaScript
 * Julia
+* Lua
 * Python
 * Rust
