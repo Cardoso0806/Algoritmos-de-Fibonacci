@@ -1,6 +1,6 @@
 # Algoritmos de Fibonacci
 
-## [English] (README.md)
+### [English](README.md)
 
 Esta é uma coleção de algoritmos para a sequência de Fibonacci em diferentes linguagens de programação, inspirado pela [The Hello World Collection](http://helloworldcollection.de).
 
