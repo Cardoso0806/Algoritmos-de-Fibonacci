@@ -1,3 +1,5 @@
+--Fibonacci para Lua
+
 
 function fibonacci(n)
 	local valores = {["a"] = 0,["b"] = 1,["ac"] = 0,}
