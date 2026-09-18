@@ -1,42 +1,45 @@
-# Algoritmos de Fibonacci
-Esta é uma coleção de algoritmos para a sequência de Fibonacci em diferentes linguagens de programação, inspirado pela [The Hello World Collection](http://helloworldcollection.de).
+# Fibonacci's Algorithm
 
-A sequência de Fibonacci é uma sequência de números inteiros, com valores iniciais de 0 e 1, onde cada termo é igual a soma de seus dois antecessores. Matematicamente representamos a sequência pela seguinte função:
+## [Português] (README.pt.md)
+
+This is a collection of Fibonacci sequence algorithm in various programming languages, inspired by [The Hello World Collection](http://helloworldcollection.de).
+
+The Fibonacci sequence is a sequence of integer numbers, with initial values of 0 and 1, in which each posterior value is equal to the sum of his antecessors. Mathematically, we represent this sequence with the function:
 
 $$
 F(n) =
 \begin{cases}
-0, & \text{se } n = 0 \\
-1, & \text{se } n = 1 \\
-F(n-1) + F(n-2), & \text{se } n > 1
+0, & \text{if } n = 0 \\
+1, & \text{if } n = 1 \\
+F(n-1) + F(n-2), & \text{if } n > 1
 \end{cases}
 $$
 
-O algoritmo implementado em todos os codigos-fonte segue uma abordagem iterativa, onde os termos A e B são somados sequencialmente em um laço de repetição.
+The algorithm implemented in all source-codes follows an iterative method, in which terms A and B are summed sequentially whitin a loop.
 
 ```
-ALGORITMO Fibonacci_Iterativo
+ALGORITHM Iterative_Fibonacci
 
-ENTRADA: n (inteiro não negativo)
+INPUT: n (non negative integer)
 
-INÍCIO
-    anterior <- 0
-    atual <- 1
-    acumulador <- 0
+BEGIN
+    last_term <- 0
+    current_term <- 1
+    accumulator <- 0
 
-    PARA i DE 0 ATÉ n FAÇA
-        ESCREVA anterior
-        acumulador <- anterior + atual
-        anterior <- atual
-        atual <- acumulador
-    FIM PARA
+    FOR i FROM 0 UNTIL n DO
+        WRITE last_term
+        accumulator <- last_term + current_term
+        last_term <- current_term
+        current_term <- accumulator
+    END FOR
 
-FIM
+END
 ```
 
-## Catálogo de Linguagens Utilizadas
+## Languages Catalog
 
-O algoritmo já foi implementado nas seguintes linguagens:
+The algorithm has alredy been implemented in the following Programming Languages:
 
 * C
 * C#
