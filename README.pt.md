@@ -43,6 +43,7 @@ O algoritmo já foi implementado nas seguintes linguagens:
 
 * C
 * C#
+* Go
 * Java
 * JavaScript
 * Julia
