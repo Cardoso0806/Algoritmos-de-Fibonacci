@@ -41,6 +41,7 @@ END
 
 The algorithm has alredy been implemented in the following Programming Languages:
 
+* ASM (Risc-V)
 * C
 * C#
 * Go

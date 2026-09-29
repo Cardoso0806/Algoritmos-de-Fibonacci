@@ -41,6 +41,7 @@ FIM
 
 O algoritmo já foi implementado nas seguintes linguagens:
 
+* ASM (Risc-V)
 * C
 * C#
 * Go
